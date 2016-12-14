@@ -1,26 +1,13 @@
-/* styles */
-/* called by your view template */
+/* styles
+called by your view template
 
-/* You might want to try something fancier: */
-/* less: http://lesscss.org/ */
+You might want to try something fancier:
+less: http://lesscss.org/
 
 * {
   box-sizing: border-box;
 }
-button{
-  margin: 5px;
-  padding: 3px;
-}
-table{
-  width: 100%;
-  height: 330px;
-  border:solid;
-}
-tbody{
-}
-td{
-  border:solid;
-}
+
 body {
   font-family: helvetica, arial, sans-serif;
   margin: 25px;
@@ -28,24 +15,25 @@ body {
 
 h1 {
   font-weight: bold;
-  color: blue;
+  color: pink;
 }
 
 .bold {
   font-weight: bold;
-}
-#WrapAll{
-  width:100%;
-  height:100%;
-  overflow:hidden;
 }
 
 p {
   max-width: 600px;
 }
 
-form{
-  width:200px;
+form {
+  margin-bottom: 25px;
+  padding: 15px;
+  background-color: cyan;
+  display: inline-block;
+  width: 100%;
+  max-width: 340px;
+  border-radius: 3px;
 }
 
 input {
@@ -59,7 +47,7 @@ input {
 }
 
 button {
-  font-size: 65px;
+  font-size: 16px;
   border-radius: 3px;
   background-color: lightgrey;
   border: 1px solid grey;
@@ -92,3 +80,4 @@ footer > a {
 .nicejob {
   text-decoration: line-through;
 }
+ */
